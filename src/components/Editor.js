@@ -1,6 +1,5 @@
 import React from "react";
 import "../styles.css";
-import marked from "marked";
 
 function Editor({ editorText, setEditorText }) {
   const textHandler = (e) => {
