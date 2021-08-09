@@ -52,6 +52,8 @@ h3 {
 
 #editor {
   background-color: #02464b;
+  position: relative;
+  bottom: 5px;
   width: 100%;
   padding: 15px;
   outline: none;
@@ -67,7 +69,8 @@ h3 {
 
 .bar {
   background-color: #24bca5;
-  padding-left: 15px;
+  text-align: center;
+  padding: 3px;
   border: 1px solid black;
 
   border-top-left-radius: 3px;
@@ -75,7 +78,8 @@ h3 {
 }
 
 .bar2 {
-  padding-left: 15px;
+  text-align: center;
+  padding: 3px;
   background-color: #24bca5;
 }
 
