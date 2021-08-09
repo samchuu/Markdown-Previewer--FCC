@@ -9,7 +9,6 @@
 body {
   font-family: "Lato", sans-serif;
   background-color: #c5e4e7;
-  overflow: hidden;
 }
 
 #markdown {
@@ -39,12 +38,10 @@ h3 {
 }
 
 .box1 {
-  border: 1px solid black;
   border-radius: 3px;
   margin: 5rem auto;
   max-width: 330px;
   height: 201px;
-  box-shadow: 1px 1px 1px black;
 }
 
 .box2 {
@@ -59,7 +56,6 @@ h3 {
   background-color: #02464b;
   width: 329px;
 
-  border: none;
   padding: 15px;
   margin-bottom: 5px;
   outline: none;
@@ -75,7 +71,11 @@ h3 {
 
 .bar {
   background-color: #24bca5;
+  width: 99.8%;
   padding-left: 15px;
+  border: 1px solid black;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
 }
 
 .bar2 {
