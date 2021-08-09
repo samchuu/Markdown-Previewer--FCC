@@ -4,8 +4,8 @@ import Previewer from "./components/Previewer";
 function App() {
   const defaultText = `
   # React Markdown Previewer
-  ## This is a sub-heading... 
-  **bolded text here**
+  ## Sub-heading here!
+  Make this word **bold!**
   > Block quotes!
 
   - list item 1
@@ -24,9 +24,14 @@ function App() {
   const [editorText, setEditorText] = useState(defaultText);
 
   return (
-    <div className="App">
-      <Editor editorText={editorText} setEditorText={setEditorText} />
-      <Previewer editorText={editorText} />
+    <div>
+      <header>
+        <div id="markdown">Markdown Previewer</div>
+      </header>
+      <div className="App">
+        <Editor editorText={editorText} setEditorText={setEditorText} />
+        <Previewer editorText={editorText} />
+      </div>
     </div>
   );
 }

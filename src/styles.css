@@ -8,9 +8,17 @@
 
 body {
   font-family: "Lato", sans-serif;
-  background-color: #87b5b5;
+  background-color: #c5e4e7;
 }
 
+#markdown {
+  display: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
 h1 {
   /* border: 1px solid black; */
   font-size: 20px;
@@ -26,14 +34,13 @@ h2 {
 
 h3 {
   font-size: 13px;
-  /* border-bottom: 2px solid black; */
   margin-bottom: 14px;
 }
 
 .box1 {
   border: 1px solid black;
   border-radius: 3px;
-  margin: 10px auto;
+  margin: 5rem auto;
   width: 408px;
   height: 203px;
   box-shadow: 1px 1px 1px black;
@@ -49,30 +56,53 @@ h3 {
 }
 
 #editor {
-  background-color: #c1d8d8;
+  background-color: #02464b;
   border: none;
+
   padding: 15px;
   margin-bottom: 5px;
   outline: none;
+  color: #24bca5;
 }
 
 #preview {
-  background-color: #c1d8d8;
+  background-color: #02464b;
   padding: 35px;
+  color: #24bca5;
+  height: 400px;
 }
 
 .bar {
-  background-color: #4aa3a3;
+  background-color: #24bca5;
   width: 406px;
   padding-left: 15px;
 }
 
 .bar2 {
   padding-left: 15px;
-  background-color: #4aa3a3;
+  background-color: #24bca5;
 }
 
 img {
   padding: 2.5rem;
   width: 470px;
+}
+
+@media (min-width: 1050px) {
+  .App {
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    max-width: 1050px;
+    margin: 10rem auto;
+    background-color: whitesmoke;
+  }
+  #markdown {
+    font-size: 32px;
+    color: #739698;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 130px;
+  }
 }
