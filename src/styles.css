@@ -38,8 +38,9 @@ h3 {
 }
 
 .box1 {
-  border-radius: 3px;
-  margin: 5rem auto;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  margin: 2rem auto;
   max-width: 330px;
   height: 201px;
 }
@@ -55,7 +56,6 @@ h3 {
 #editor {
   background-color: #02464b;
   width: 329px;
-
   padding: 15px;
   margin-bottom: 5px;
   outline: none;
@@ -66,7 +66,7 @@ h3 {
   background-color: #02464b;
   padding: 35px;
   color: #24bca5;
-  height: 400px;
+  /* height: 400px; */
 }
 
 .bar {
