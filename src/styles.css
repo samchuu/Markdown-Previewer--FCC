@@ -38,8 +38,11 @@ h3 {
 }
 
 .box1 {
-  border-bottom-left-radius: 3px;
-  border-bottom-right-radius: 3px;
+  border: 1px solid black;
+  box-shadow: 1px 1px 1px black;
+  border-radius: 3px;
+  /* border-bottom-left-radius: 3px; */
+  /* border-bottom-right-radius: 3px; */
   margin: 2rem auto;
   max-width: 330px;
   height: 201px;
@@ -73,10 +76,10 @@ h3 {
   background-color: #24bca5;
   width: 99.8%;
   padding-left: 15px;
-  border: 1px solid black;
+  /* border: 1px solid black;
   border-bottom: none;
   border-top-left-radius: 3px;
-  border-top-right-radius: 3px;
+  border-top-right-radius: 3px; */
 }
 
 .bar2 {
