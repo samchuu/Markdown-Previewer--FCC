@@ -60,8 +60,7 @@ h3 {
   background-color: #02464b;
   width: 329px;
   padding: 15px;
-  margin-bottom: 5px;
-  outline: none;
+  /* outline: none; */
   color: #24bca5;
 }
 
