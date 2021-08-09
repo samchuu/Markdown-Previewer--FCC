@@ -41,14 +41,14 @@ h3 {
   border: 1px solid black;
   border-radius: 3px;
   margin: 5rem auto;
-  width: 408px;
+  max-width: 330px;
   height: 203px;
   box-shadow: 1px 1px 1px black;
 }
 
 .box2 {
   margin: 1rem auto;
-  width: 500px;
+  max-width: 450px;
   border: 1px solid black;
   box-shadow: 1px 1px 1px black;
 
@@ -57,8 +57,9 @@ h3 {
 
 #editor {
   background-color: #02464b;
-  border: none;
+  width: 329px;
 
+  border: none;
   padding: 15px;
   margin-bottom: 5px;
   outline: none;
@@ -74,7 +75,6 @@ h3 {
 
 .bar {
   background-color: #24bca5;
-  width: 406px;
   padding-left: 15px;
 }
 
@@ -85,7 +85,7 @@ h3 {
 
 img {
   padding: 2.5rem;
-  width: 470px;
+  width: 390px;
 }
 
 @media (min-width: 1050px) {
